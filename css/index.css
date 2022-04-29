@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(70deg, rgb(19, 106, 206), rgb(20, 186, 228));
+}
+div{
+  background-color: rgba(0,0,0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  padding: 60px;
+  padding-top: 30px;
+  border-radius: 15px;
+  color: white;
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 7px;
+}
+button{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 7px;
+    color:white;
+    font-size: 15px;
+}
+button:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
