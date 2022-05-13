@@ -37,11 +37,11 @@
         window.inserir_usuario = async function(){
           try{
             const docRef = await addDoc(collection(db, "users"), {
-              first: "Richard",
-              last: "Stallmann",
-              born: "???"
+              first: "Ana Luisa",
+              last: "Goes",
+              born: 2004
             });
-            console.log("Docuemtn written with ID: ", docRef.id);
+            console.log("Document written with ID: ", docRef.id);
           }catch(e){
             console.error("Error adding document: ", e);
           }
